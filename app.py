@@ -1,12 +1,5 @@
 import streamlit as st
-st.markdown("""
-    <style>
-            [data-testid="stAppViewContainer"] {
-                        direction: rtl;s
-                                    text-align: right;
-                                            }
-                                                </style>
-                                                """, unsafe_allow_html=True)
+
 # 1. إعدادات الصفحة والعنوان الرهيب بحركة الفراشات
 st.set_page_config(page_title="منصة الفراشة", page_icon="🦋")
 st.title("🦋 منصة الفراشة لتعليم الأزمنة 🦋")
